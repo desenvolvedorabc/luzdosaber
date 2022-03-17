@@ -9,9 +9,9 @@ Luz do saber é um aplicatico ......
 1. [História]()
 2. [Agradecimentos]()
 3. [Licença de uso GNU/GLP3]()
-4. [Guia do usuário]()
+4. [Guia do usuário](./Guia%20do%20Usu%C3%A1rio)
 5. [Guia para manuteção de infraestrutura]()
-6. [Criando e instalando uma nova instância do Luz do Saber]() 
+6. [Criando e instalando uma nova instância do Luz do Saber](./luzdosaber#criando-e-instalando-uma-nova-inst%C3%A2ncia-do-luz-do-saber) 
 
 
 ## História
