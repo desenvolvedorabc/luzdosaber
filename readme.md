@@ -23,11 +23,6 @@ Do ponto de vista computacional.
 É um software educacional composto por dois módulos: O primeiro de configuração, inclusão de usuários e turmas, autoração de conteúdos e mídias digitais e o segundo é uma interface adaptada utilizando estratégia de interação humano-computador para crianças do 1º ao 5º ano do ensino fundamental desenvolvida com os frameworks Ruby on Rails no back-end ),  Vue para o front-end e o bando de dados PostgreeSQL.
 </P>
 
-![image](https://user-images.githubusercontent.com/80797440/182002220-a0aad5ea-aaca-4641-be2b-29775a0cb2ec.png)
-
-
-
-
 
 ## Sumário 
 
