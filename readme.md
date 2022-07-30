@@ -1,7 +1,5 @@
 # Luz do Saber
 
-Luz do saber é um aplicatico ......
-
 <P>
 Atualmente, o Luz do Saber é um projeto do Programa Cientista-Chefe em Educação Básica do Estado do Ceará, gerido e financiado pela FUNCAP, que tem por objetivo colaborar com a aprendizagem e o desenvolvimento das crianças dos anos iniciais do Ensino Fundamental nos processos de oralidade, leitura e escrita a partir do contato com os diversos gêneros orais, escritos e digitais. Para tanto, disponibiliza um portal educacional gratuito com atividades online, jogos e aplicações voltadas para o desenvolvimento da escrita. Além disso, disponibiliza para download livros didáticos para o 1º e 2º anos do Ensino Fundamental e materiais para orientações didáticas aos professores. Também é disponibilizado uma grande biblioteca de livros da coleção PAIC – Prosa e Poesia.
 </P>
