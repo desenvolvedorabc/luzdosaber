@@ -1,0 +1,33 @@
+version: "3.7"
+
+
+services:
+  app:
+    image: luzdosaber-portal:v1
+    environment:
+      - TZ=America/Fortaleza
+      - env_file=.env
+    deploy:
+      restart_policy:
+        condition: on-failure
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=traefik-public
+        - traefik.constraint-label=traefik-public
+        - traefik.http.routers.portal-http.rule=Host(`sua-url.com.br`)
+        - traefik.http.routers.portal-http.entrypoints=http
+        - traefik.http.routers.portal-http.middlewares=https-redirect
+        - traefik.http.routers.portal-https.rule=Host(`sua-url.com.br`)
+        - traefik.http.routers.portal-https.entrypoints=https
+        - traefik.http.routers.portal-https.tls=true
+        - traefik.http.routers.portal-https.tls.certresolver=le
+        - traefik.http.services.portal.loadbalancer.server.port=80
+        - traefik.http.middlewares.https-redirect.redirectscheme.scheme=https
+        - traefik.http.middlewares.https-redirect.redirectscheme.permanent=true
+
+    networks:
+      - traefik-public
+
+networks:
+  traefik-public:
+    external: true

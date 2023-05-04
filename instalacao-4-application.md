@@ -12,8 +12,7 @@ Os Arquivos Dockerfile e docker-compose estão em:
 
 Primeiro clonar o projeto
 ```
-git clone https://github.com/lmedesenvolvimento/luz-do-saber-application.git
-
+git clone https://github.com/desenvolvedorabc/luz-do-saber-application.git
 ```
 
 Copiar os arquivos Dockerfile e docker-compose e env para o mesmo nível do repositório clonado.

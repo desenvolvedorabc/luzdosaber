@@ -12,7 +12,7 @@ Os Arquivos Dockerfile e docker-compose estão em:
 
 Primeiro clonar o projeto
 ```
-git clone https://github.com/lmedesenvolvimento/luz-do-saber-portal.git
+git clone https://github.com/desenvolvedorabc/luz-do-saber-portal.git
 
 ```
 
